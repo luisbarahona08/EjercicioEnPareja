@@ -55,7 +55,7 @@ public class Factura {
         if (precioPorArticulo > 0.0) {
             this.precioPorArticulo = precioPorArticulo;
         } else {
-            this.precioPorArticulo = 0.0;
+            this.precioPorArticulo =  0.0;
         }
     }
 

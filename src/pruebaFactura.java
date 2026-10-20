@@ -22,7 +22,7 @@ public class pruebaFactura {
         Factura factura = new Factura(numero, descripcion, cantidad, precio);
 
         // Mostrar resumen
-        System.out.println("\n=== DETALLE DE FACTURA ===");
+        System.out.println("\n Detalle de Factura");
         System.out.println("Número de pieza: " + factura.obtenerNumeroPieza());
         System.out.println("Descripción: " + factura.obtenerDescripcionPieza());
         System.out.println("Cantidad: " + factura.obtenerCantidad());
