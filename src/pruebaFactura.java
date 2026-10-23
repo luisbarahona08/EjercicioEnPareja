@@ -29,7 +29,6 @@ public class pruebaFactura {
         System.out.println("Precio unitario: $" + factura.obtenerPrecioPorArticulo());
         System.out.println("Monto total a pagar: $" + factura.obtenerMontoFactura());
 
-        entrada.close();
     }
 }
 
