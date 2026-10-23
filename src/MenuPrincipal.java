@@ -31,9 +31,8 @@ public class MenuPrincipal {
                     break;
 
                 case 2:
-                    // Pendiente: integracion de Frecuencias Cardiacas
-                    // Esta parte la realizara mi companera.
-                    System.out.println("Modulo pendiente de integrar.");
+                    System.out.println("\n--- MODULO FRECUENCIAS CARDIACAS ---");
+                    PruebaFrecuenciasCardiacas.main(new String[0]);
                     break;
 
                 case 3:
